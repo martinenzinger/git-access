@@ -2,50 +2,50 @@
 additional commands and shortcuts for the Git CLI
 
 
-## git history
+### git history
 history of commits
 
-## git graph
+### git graph
 visual representation of commits and branches
 
-## git standup <author>
+### git standup author?
 commits of a specific author
 
-## git changes
+### git changes
 commits including file changes
 
-## git branches
+### git branches
 show available branches
 
-## git stashes
+### git stashes
 show stash list
 
-## git tags
+### git tags
 show list of tags
 
-## git id <name>? <email>?
+### git id name? email?
 set or display your current name and email
 
-## git open
+### git open
 open the remote repository in your standard browser *(if you are working with a GitHub remote repo -> press "."-Key to open the repo in Visual Studio Code)*
 
-## git correction <message>?
+### git correction message?
 add all changed and new files in the index to the latest commit *(amend the previous commit, the message parameter is optional)*
 
-## git uncommit
+### git uncommit
 undo the latest commit *(soft mode, the files are still available in the index)*
 
-## git staged
+### git staged
 show staged files
 
-## git unstage
+### git unstage
 unstage all files
 
-## git discard
+### git discard
 delete changes and new files from the index
 
-## git lostfound
+### git lostfound
 show lost commits *(reflog)*
 
-## git recover <commitid>
+### git recover commitid?
 reset to specific lost commit
