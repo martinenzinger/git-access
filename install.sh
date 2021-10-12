@@ -5,7 +5,7 @@
 git config --global alias.history "log --pretty=format:'%C(green)%h %Creset%s%C(cyan bold) [%an] %C(yellow)[%ar]%Cblue%d' --decorate"
 
 # git graph
-git config --global alias.graph "log --graph -10 --branches --remotes --tags  --format=format:'%C(green)%h %Creset%<(20,trunc)%s %C(cyan bold)[%cN]' --date-order"
+git config --global alias.graph "log --graph --branches --remotes --tags  --format=format:'%C(green)%h %Creset%<(20,trunc)%s %C(cyan bold)[%cN]' --date-order"
 
 # git standup <author>
 git config --global alias.standup "!f(){ git log --author \"\$1\" --pretty=format:'%C(green)%h %Creset%<(35,trunc)%s %C(cyan bold)[%an] %C(yellow)[%ar]%Cblue%d' --decorate; }; f"
