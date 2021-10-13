@@ -10,6 +10,9 @@ git config --global alias.graph "log --graph --branches --remotes --tags  --form
 # git standup <author>
 git config --global alias.standup "!f(){ git log --author \"\$1\" --pretty=format:'%C(green)%h %Creset%<(35,trunc)%s %C(cyan bold)[%an] %C(yellow)[%ar]%Cblue%d' --decorate; }; f"
 
+# git search <phrase>
+git config --global alias.search "!f(){ git log --pretty=format:'%C(green)%h %Creset%<(35,trunc)%s %C(cyan bold)[%an] %C(yellow)[%ar]%Cblue%d' --decorate --color=always | grep \"\$1\" --color=never | less -R -F; }; f"
+
 # git changes
 git config --global alias.changes "log --pretty=format:'%C(green)%h %Creset%s% %C(cyan bold) [%cN] %C(yellow)[%ad]%Cblue%d' --decorate --numstat"
 

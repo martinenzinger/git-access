@@ -14,6 +14,9 @@ visual representation of commits and branches
 commits of a specific author
 ![git standup](https://github.com/martinenzinger/git-access/raw/main/images/git-standup.png "git standup")
 
+#### git search phrase?
+search for phrase in commit history
+
 #### git changes
 commits including file changes
 
@@ -52,3 +55,8 @@ show lost commits *(reflog)*
 
 #### git recover commitid?
 reset to specific lost commit
+
+
+
+ 💡 type <kbd>q</kbd> and press the <kbd>Enter</kbd> key to exit terminal file reading mode (`less`)
+
